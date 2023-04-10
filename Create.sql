@@ -48,7 +48,7 @@ CREATE TABLE Facilitadores (
     FOREIGN KEY (ID_funcionario) REFERENCES Funcionarios(ID)  
 );
 
-CREATE TABLE Departamento_Pessoal (
+CREATE TABLE Recursos_Humanos(
     ID SMALLINT PRIMARY KEY NOT NULL,
     ID_funcionario SMALLINT NOT NULL,
     Nome VARCHAR(200),
