@@ -65,7 +65,7 @@ INSERT INTO Funcionarios (ID, ID_departamento, ID_funcao, Nome, CPF, Endereco, T
 
 INSERT INTO Cursos ( ID , Nome , Carga_Horaria , Preco) VALUES
 (1, 'Analise de dados', 248 , 11000),
-(2, 'Web Dev Full Stack, 68 , 5000),
+(2, 'Web Dev Full Stack', 68 , 5000),
 (3, 'WebDesigner', 60, 4500),
 (4, 'Ciencia de dados' , 482 , 18000),
 (5, 'Engenharia de dados' , 318 , 22000),
