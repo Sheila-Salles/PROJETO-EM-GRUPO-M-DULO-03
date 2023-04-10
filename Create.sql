@@ -30,7 +30,7 @@ CREATE TABLE Funcionarios (
     Endereco VARCHAR(200),
     Telefone VARCHAR(15),
     Email VARCHAR(100),
-    Salario DECIAML(7,2),
+    Salario DECIMAL (7,2),
     FOREIGN KEY (ID_departamento) REFERENCES Departamento(ID),
     FOREIGN KEY (ID_funcao) REFERENCES Funcao(ID)
     );
