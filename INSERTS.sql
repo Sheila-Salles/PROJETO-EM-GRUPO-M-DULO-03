@@ -70,3 +70,13 @@ INSERT INTO Cursos ( ID , Nome , Carga_Horaria , Preco) VALUES
 (4, 'Ciencia de dados' , 482 , 18000),
 (5, 'Engenharia de dados' , 318 , 22000),
 (6, 'Ux Designer' , 50 , 10000);
+ 
+ INSERT INTO Modulos ( ID , Nome ) VALUES
+(1, 'Python'),
+(2, 'sql'),
+(3, 'java'),
+(4, 'git'),
+(5, 'visualização de dados'),
+(6, 'Css e Html'),
+(7, 'machine learning'),
+(8, 'estatistica');
