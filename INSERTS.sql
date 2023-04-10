@@ -53,6 +53,16 @@ INSERT INTO Departamento (ID, ID_gerente, Local, Nome) VALUES
 (3, 3, 'Rio de Janeiro', 'Administração'),
 (4, 4, 'Rio de Janeiro', 'Setor de T.I');
 
+INSERT INTO Funcionarios (ID, ID_departamento, ID_funcao, Nome, CPF, Endereco, Telefone, Email, Salario) VALUES
+(1, 1, 1, 'João Silva', '32427336815', 'Rua A, 123, Rio de Janeiro', '(21) 9999-1111', 'joao.silva@gmail.com', 2500.00),
+(2, 1, 1, 'Maria Souza', '77509153387', 'Rua B, 456, Rio de Janeiro', '(21) 9999-2222', 'maria.souza@gmail.com', 2500.00),
+(3, 2, 2, 'Pedro Santos', '72282235193', 'Rua C, 789, Rio de Janeiro', '(21) 9999-3333', 'pedro.santos@gmail.com', 3500.00),
+(4, 2, 2, 'Ana Lima', '40654769257', 'Rua D, 012, Rio de Janeiro', '(21) 9999-4444', 'ana.lima@gmail.com', 3500.00),
+(5, 3, 3, 'Paulo Castro', '42774383935', 'Rua E, 345, Rio de Janeiro', '(21) 9999-5555', 'paulo.castro@gmail.com', 4000.00),
+(6, 3, 3, 'Fernanda Oliveira', '24537882646', 'Rua F, 678, Rio de Janeiro', '(21) 9999-6666', 'fernanda.oliveira@gmail.com', 4000.00),
+(7, 4, 4, 'Lucas Rodrigues', '73304550089', 'Rua G, 910, Rio de Janeiro', '(21) 9999-7777', 'lucas.rodrigues@gmail.com', 4500.00),
+(8, 4, 4, 'Julia Santos', '15447422744', 'Rua H, 111, Rio de Janeiro', '(21) 9999-8888', 'julia.santos@gmail.com', 4500);
+
 INSERT INTO Cursos ( ID , Nome , Carga_Horaria , Preco) VALUES
 (1, 'Analise de dados', 248 , 11000),
 (2, 'Web Dev Full Stack, 68 , 5000),
