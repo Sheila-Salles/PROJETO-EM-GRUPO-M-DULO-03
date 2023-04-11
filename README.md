@@ -14,11 +14,7 @@ GFUPO YELLOW - MATHEUS BARBOSA, SHEILA CAETANA, LORHAN COSTA, CASSIO RIBEIRO.
 >4. Inserir alguns dados, executar algumas consultas para
 >gerar informações estratégicas para a área de ensino da
 Resilia
-
-
-###
-
-
+>>
 >>>1. Selecionar a quantidade total de estudantes cadastrados no banco;
 
       SELECT count (MATRICULA) AS QTDE_DE_ALUNOS_MATRICULADOS
