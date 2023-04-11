@@ -15,7 +15,7 @@ CREATE TABLE Funcao (
 
 CREATE TABLE Departamento (
     ID SMALLINT PRIMARY KEY NOT NULL,
-    ID_gerente SMALLINT NOT NULL,
+    ID_gerente SMALLINT ,
     Local VARCHAR (200),
     Nome VARCHAR (200)
 );
@@ -48,7 +48,7 @@ CREATE TABLE Facilitadores (
     FOREIGN KEY (ID_funcionario) REFERENCES Funcionarios(ID)  
 );
 
-CREATE TABLE Recursos_Humanos(
+CREATE TABLE Departamento_Pessoal (
     ID SMALLINT PRIMARY KEY NOT NULL,
     ID_funcionario SMALLINT NOT NULL,
     Nome VARCHAR(200),
@@ -101,6 +101,3 @@ CREATE TABLE Cursos_Modulos (
 
 ALTER TABLE Departamento
 ADD CONSTRAINT ID_gerente FOREIGN KEY (ID_gerente) REFERENCES Funcionarios(ID);
-
-
-
