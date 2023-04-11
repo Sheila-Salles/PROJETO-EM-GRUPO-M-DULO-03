@@ -8,6 +8,8 @@ de ensino da empresa como dados sobre os alunos, facilitadores,
 departamentos, módulos e cursos em planilhas. Essas informações são
 colocadas em planilhas diferentes, dificultando muitas das vezes a
 extração de dados estratégicos para a empresa.
+
+
 ##1.Gerar uma representação das entidades e seus respectivos
 atributos;
 
