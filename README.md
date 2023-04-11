@@ -3,18 +3,20 @@ REPOSITÓRIO REFERENTE AO PROJETO EM GRUPO DO MÓDULO 3
 GFUPO YELLOW - MATHEUS BARBOSA, SHEILA CAETANA, LORHAN COSTA, CASSIO RIBEIRO.
 
 >###PROBLEMA DO PROJETO: 
->1.Gerar uma representação das entidades e seus respectivos
+1.Gerar uma representação das entidades e seus respectivos
 >atributos;
 
->2. Criar a modelagem do banco de dados;
+2. Criar a modelagem do banco de dados;
 
->3. Criar os scripts SQL para criação das tabelas com seus
->respectivos atributos e com a base de dados criadas;
+3. Criar os scripts SQL para criação das tabelas com seus
+respectivos atributos e com a base de dados criadas;
 
->4. Inserir alguns dados, executar algumas consultas para
->gerar informações estratégicas para a área de ensino da
+4. Inserir alguns dados, executar algumas consultas para
+gerar informações estratégicas para a área de ensino da
 Resilia
->>
+
+
+
 >>>1. Selecionar a quantidade total de estudantes cadastrados no banco;
 
       SELECT count (MATRICULA) AS QTDE_DE_ALUNOS_MATRICULADOS
