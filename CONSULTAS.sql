@@ -28,13 +28,16 @@ WHERE endereco LIKE '%Nova Iguaçu%'
 
 SELECT Cursos.Nome, COUNT(Alunos_Cursos.Matricula_aluno) AS Num_Alunos
 FROM Cursos
-JOIN Alunos_Cursos ON Cursos.ID = Alunos_Cursos.ID_cursos
+INNER JOIN Alunos_Cursos ON Cursos.ID = Alunos_Cursos.ID_cursos
 GROUP BY Cursos.ID
 ORDER BY Num_Alunos DESC
 LIMIT 1;
 
 --6 Quais alunos fazem mais de um curso.
-SELECT Matricula_aluno, COUNT(DISTINCT ID_cursos) AS num_cursos
-FROM Alunos_Cursos
-GROUP BY Matricula_aluno
+SELECT alunos.nome , COUNT(DISTINCT Alunos_Cursos.ID_cursos) AS num_cursos
+FROM alunos
+INNER JOIN  Alunos_Cursos
+ON alunos.matricula = Alunos_Cursos.Matricula_aluno
+GROUP BY alunos.nome
 HAVING COUNT(DISTINCT ID_cursos) > 1;
+
