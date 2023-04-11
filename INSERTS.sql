@@ -32,54 +32,72 @@ INSERT INTO Alunos VALUES
 
 
 
-INSERT INTO Funcao (ID, Nome, Salario) VALUES
-(1, 'Facilitadores', 2500.00),
-(2, 'RH', 3500.00),
-(3, 'contador', 4000.00),
-(4, 'administrador', 4500.00),
-(5, 'Desenvolvedor Full Stack', 6000.00),
-(6, 'analista de dados', 6500.00),
-(7, 'cientista de dados', 7000.00),
+INSERT INTO Funcao  VALUES
+(1, 'Facilitadores', 3500.00),
+(2, 'RH', 3000.00),
+(3, 'Contador', 4000.00),
+(4, 'Administrador', 4000.00),
+(5, 'Desenvolvedor Full Stack', 8000.00),
+(6, 'Analista de Dados', 6500.00),
+(7, 'Cientista de Dados', 7000.00),
 (8, 'DBA', 7500.00),
-(9, 'Diretor administrativo', 12000.00),
-(10, 'Coordenador pedagógico', 10000.00),
+(9, 'Diretor Administrativo', 12000.00),
+(10, 'Coordenador Pedagógico', 10000.00),
 (11, 'Diretor de Marketing', 15000.00),
-(12, 'Diretor de planejamento', 15000.00),
+(12, 'Diretor de Planejamento', 15000.00),
 (13, 'Diretor Geral', 20000.00);
 
-INSERT INTO Departamento (ID, ID_gerente, Local, Nome) VALUES
-(1, 1, 'Rio de Janeiro', 'Facilitadores'),
-(2, 2, 'Rio de Janeiro', 'Diretoria'),
-(3, 3, 'Rio de Janeiro', 'Administração'),
-(4, 4, 'Rio de Janeiro', 'Setor de T.I');
+INSERT INTO Departamento (ID, Local, Nome) VALUES
+(1, 'Rio de Janeiro', 'Facilitadores'),
+(2, 'Rio de Janeiro', 'Diretoria'),
+(3, 'Rio de Janeiro', 'Administração'),
+(4, 'Rio de Janeiro', 'Setor de T.I');
 
-INSERT INTO Funcionarios (ID, ID_departamento, ID_funcao, Nome, CPF, Endereco, Telefone, Email, Salario) VALUES
-(1, 1, 1, 'João Silva', '32427336815', 'Rua A, 123, Rio de Janeiro', '(21) 9999-1111', 'joao.silva@gmail.com', 2500.00),
-(2, 1, 1, 'Maria Souza', '77509153387', 'Rua B, 456, Rio de Janeiro', '(21) 9999-2222', 'maria.souza@gmail.com', 2500.00),
-(3, 2, 2, 'Pedro Santos', '72282235193', 'Rua C, 789, Rio de Janeiro', '(21) 9999-3333', 'pedro.santos@gmail.com', 3500.00),
-(4, 2, 2, 'Ana Lima', '40654769257', 'Rua D, 012, Rio de Janeiro', '(21) 9999-4444', 'ana.lima@gmail.com', 3500.00),
-(5, 3, 3, 'Paulo Castro', '42774383935', 'Rua E, 345, Rio de Janeiro', '(21) 9999-5555', 'paulo.castro@gmail.com', 4000.00),
-(6, 3, 3, 'Fernanda Oliveira', '24537882646', 'Rua F, 678, Rio de Janeiro', '(21) 9999-6666', 'fernanda.oliveira@gmail.com', 4000.00),
-(7, 4, 4, 'Lucas Rodrigues', '73304550089', 'Rua G, 910, Rio de Janeiro', '(21) 9999-7777', 'lucas.rodrigues@gmail.com', 4500.00),
-(8, 4, 4, 'Julia Santos', '15447422744', 'Rua H, 111, Rio de Janeiro', '(21) 9999-8888', 'julia.santos@gmail.com', 4500);
 
-INSERT INTO Cursos ( ID , Nome , Carga_Horaria , Preco) VALUES
-(1, 'Analise de dados', 248 , 11000),
-(2, 'Web Dev Full Stack', 68 , 5000),
-(3, 'WebDesigner', 60, 4500),
-(4, 'Ciencia de dados' , 482 , 18000),
-(5, 'Engenharia de dados' , 318 , 22000),
-(6, 'Ux Designer' , 50 , 10000);
+INSERT INTO Funcionarios  VALUES
+(1, 1, 1, 'João Silva', '32427336815', 'Rua A 123, Tijuca, Rio de Janeiro', '(21) 9999-1111', 'joao.silva@gmail.com', 3500.00),
+(2, 1, 1, 'Maria Souza', '77509153387', 'Rua B 456, Grajaú, Rio de Janeiro', '(21) 9999-2222', 'maria.souza@gmail.com', 3500.00),
+(3, 1, 1, 'Pedro Santos', '72282235193', 'Rua C 789, Bangu, Rio de Janeiro', '(21) 9999-3333', 'pedro.santos@gmail.com', 3500.00),
+(4, 1, 1, 'Ana Lima', '40654769257', 'Rua D 12, Santa Cruz, Rio de Janeiro', '(21) 9999-4444', 'ana.lima@gmail.com', 3500.00),
+(5, 1, 1, 'Paulo Castro', '42774383935', 'Rua E 345, Taquara, Rio de Janeiro', '(21) 9999-5555', 'paulo.castro@gmail.com', 4000.00),
+(6, 2, 13, 'Fernanda Oliveira', '24537882646', 'Rua F 678, Barra da Tijuca, Rio de Janeiro', '(21) 9999-6666', 'fernanda.oliveira@gmail.com', 22000.00),
+(7, 2, 12, 'Lucas Rodrigues', '73304550089', 'Rua G 910, Botafogo, Rio de Janeiro', '(21) 9999-7777', 'lucas.rodrigues@gmail.com', 15000.00),
+(8, 2, 11, 'Julia Santos', '15447422744', 'Rua H 111, Jardim Paraíso, Nova Iguaçu', '(21) 9999-8888', 'julia.santos@gmail.com', 16000.00),
+(9, 2, 10, 'João Barros', '15685986895', 'Rua I 50, Posse, Nova Iguaçu', '(21) 98568-6253','joao@gmail.com',10750.00),
+(10, 2, 9, 'Edgard Simas', '45212568955', 'Rua J 150, Cabuçu, nova Iguaçu', '(21) 97585-6523','mestredosmagos@gmail.com',13200.00),
+(11,3,2, 'Lui Lorenzo','45232103002','Rua Vamos 30, Centro, São João de Meriti','(21) 98564-2152','notivago@gmail.com',3000.00),
+(12,3,2, 'Katelicia Silva', '45878599968', 'Rua Torres de Olicveira 200, Piedade, Rio de Janeiro','(21) 98568-3210', 'katepiedade@gmail.com', 3500.00 ),
+(13,3,2, 'Uzumaki Naruto', '74152398955', 'Rua da Folha 5, Konoha, Nova Iguaçu', '(21) 97548-3210', 'kurama@gmail.com', 3300.00),
+(14,3,3,'Nara Shikamaru', '99965856411', 'Rua da Sabedoria 100, Konoha, Nova Iguaçu', '(21) 98756-6989','sono@gmail.com',4000.00),
+(15,3,4, 'Monkey D. Luffy', '45898698966', 'AV Grand Line 1000, Paquetá, Rio de Janeiro','(21) 98568-6856','suqueee@gmail.com', 4950.00),
+(16,4,5, 'Edmundo Animal', '45298698899', 'Rua Vasco da Gama 1898, São Cristovão,  Rio de Janeiro', '(21) 98688-9899', 'ed@gmail.com',8000.00),
+(17,4,6, 'Frederico Gomes', '45698795688', 'Rua das Laranjeiras 2012, Laranjeiras, Rio de Janeiro', '(21) 99659-9899','fred@gmail.com', 6500.00),
+(18,4,7, 'Fátima Dados','98969879855','AV Dados 26, Centro, Queimados', '(21) 98568-7844', 'fafa@gmail.com', 7000.00),
+(19,4,8, 'Douglas Otako', '74565232512', 'Rua Bankai 5, Centro, São João de Meriti','(21) 97845-3214','doug@gmail.com', 7500.00);
+
+
+
+INSERT INTO Cursos  VALUES
+(1, 'Analise de Dados', 450 , 11000.00),
+(2, 'Web Dev Full Stack ', 550 , 12000.00),
+(3, 'Ux Designer' , 100 , 9000.00,
+(4, 'Ciencia de Dados' , 482 , 12000.00),
+(5, 'Engenharia de Dados' , 318 , 11000.00);
+
  
- INSERT INTO Modulos ( ID , Nome ) VALUES
+ INSERT INTO Modulos  VALUES
 (1, 'Python'),
-(2, 'sql'),
-(3, 'java'),
-(4, 'git'),
-(5, 'visualização de dados'),
-(6, 'Css e Html'),
-(7, 'machine learning'),
-(8, 'estatistica');
+(2, 'Sql'),
+(3, 'Designer'),
+(4, 'R'),
+(5, 'Visualização de Dados'),
+(6, 'Front End'),
+(7, 'Machine Learning'),
+(8, 'Estatistica'),
+(9, 'Back End'),
+(10, 'Soft Skils'),
+(11, 'Photoshop');
+
 
 
 INSERT INTO Alunos_Cursos VALUES
@@ -123,4 +141,69 @@ INSERT INTO Alunos_Cursos VALUES
 (29, 6,'TARDE'),
 (30, 1,'NOITE');
 
+INSERT INTO Cursos_Modulos VALUES
+(1,1),
+(1,4),
+(2,1),
+(2,4),
+(2,5),
+(3,3),
+(4,4),
+(5,1),
+(5,4),
+(6,2),
+(7,4),
+(7,5),
+(8,1),
+(8,4),
+(8,5),
+(9,2),
+(10,1),
+(10,2),
+(10,3),
+(10,4),
+(10,5),
+(11,3);
+ 
+ 
+INSERT INTO Facilitadores VALUES
+(1, 1, 'João Silva', 'Rua A 123, Tijuca, Rio de Janeiro', '32427336815', '(21) 9999-1111', 'joao.silva@gmail.com', 3500.00),
+(2, 2, 'Maria Souza', 'Rua B 456, Grajaú, Rio de Janeiro','77509153387', '(21) 9999-2222', 'maria.souza@gmail.com', 3500.00),
+(3, 3, 'Pedro Santos', 'Rua C 789, Bangu, Rio de Janeiro','72282235193',  '(21) 9999-3333', 'pedro.santos@gmail.com', 3500.00),
+(4, 4, 'Ana Lima','Rua D 12, Santa Cruz, Rio de Janeiro' ,'40654769257',  '(21) 9999-4444', 'ana.lima@gmail.com', 3500.00),
+(5, 5, 'Paulo Castro', 'Rua E 345, Taquara, Rio de Janeiro','42774383935',  '(21) 9999-5555', 'paulo.castro@gmail.com', 4000.00);
+ 
+INSERT INTO Departamento_Pessoal VALUES
+(1,11, 'Lui Lorenzo','Rua Vamos 30, Centro, São João de Meriti' ,'45232103002','(21) 98564-2152','notivago@gmail.com',3000.00),
+(2,12, 'Katelicia Silva', 'Rua Torres de Olicveira 200, Piedade, Rio de Janeiro','45878599968', '(21) 98568-3210', 'katepiedade@gmail.com', 3500.00 ),
+(3,13, 'Uzumaki Naruto','Rua da Folha 5, Konoha, Nova Iguaçu' ,'74152398955',  '(21) 97548-3210', 'kurama@gmail.com', 3300.00);
+ 
 
+INSERT INTO Cursos_Facilitadores VALUES
+(1,1,'MANHÃ'),
+(1,2,'TARDE'),
+(1,4,'NOITE'),
+(2,2,'MANHÃ'),
+(2,3,'TARDE'),
+(3,5,'MANHÃ'),
+(3,4,'TARDE'),
+(4,1,'NOITE'),
+(4,5,'TARDE'),
+(5,2,'NOITE');
+ 
+ 
+UPDATE Departamento
+set id_gerente = 10
+where id = 1
+
+UPDATE Departamento
+set id_gerente = 13
+where id = 2
+
+UPDATE Departamento
+set id_gerente =10
+where id = 3
+
+UPDATE Departamento
+set id_gerente = 12
+where id = 4
