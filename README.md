@@ -3,8 +3,9 @@ REPOSITÓRIO REFERENTE AO PROJETO EM GRUPO DO MÓDULO 3
 GFUPO YELLOW - MATHEUS BARBOSA, SHEILA CAETANA, LORHAN COSTA, CASSIO RIBEIRO.
 
 >###PROBLEMA DO PROJETO: 
+
 1.Gerar uma representação das entidades e seus respectivos
->atributos;
+atributos;
 
 2. Criar a modelagem do banco de dados;
 
