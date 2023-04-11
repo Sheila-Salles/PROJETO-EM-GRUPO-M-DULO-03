@@ -138,7 +138,7 @@ INSERT INTO Alunos_Cursos VALUES
 (28, 3,'MANHÃ'),
 (28, 4,'TARDE'),
 (29, 5,'NOITE'),
-(29, 6,'TARDE'),
+(29,3 ,'TARDE'),
 (30, 1,'NOITE');
 
 INSERT INTO Cursos_Modulos VALUES
