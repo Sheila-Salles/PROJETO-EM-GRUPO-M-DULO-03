@@ -16,6 +16,7 @@ respectivos atributos e com a base de dados criadas;
 gerar informações estratégicas para a área de ensino da
 Resilia
 
+#RESOLUÇÃO:
 ##CRIAR UM BANCO DE DADOS, PARA RESPONDER ESSAS SEGUINTES PERGUNTRAS: 
 
 >>>1. Selecionar a quantidade total de estudantes cadastrados no banco;
