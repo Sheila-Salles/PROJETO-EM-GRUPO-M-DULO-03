@@ -16,6 +16,9 @@ GFUPO YELLOW - MATHEUS BARBOSA, SHEILA CAETANA, LORHAN COSTA, CASSIO RIBEIRO.
 Resilia
 
 
+###
+
+
 >>>1. Selecionar a quantidade total de estudantes cadastrados no banco;
 
       SELECT count (MATRICULA) AS QTDE_DE_ALUNOS_MATRICULADOS
