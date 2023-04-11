@@ -105,7 +105,7 @@ INSERT INTO Alunos_Cursos VALUES
 (1, 3,'TARDE'),
 (2, 5,'MANHÃ'),
 (3, 1,'NOITE'),
-(4, 6,'TARDE'),
+(4, 3,'TARDE'),
 (5, 2,'MANHÃ'),
 (6, 5,'NOITE'),
 (7, 3,'TARDE'),
@@ -123,10 +123,10 @@ INSERT INTO Alunos_Cursos VALUES
 (16, 5,'MANHÃ'),
 (17, 4,'NOITE'),
 (18, 1,'MANHÃ'),
-(19, 6,'NOITE'),
+(19, 3,'NOITE'),
 (20, 3,'MANHÃ'),
 (20, 5,'TARDE'),
-(21, 6,'NOITE'),
+(21, 3,'NOITE'),
 (22, 1,'MANHÃ'),
 (23, 4,'MANHÃ'),
 (23, 5,'TARDE'),
@@ -138,7 +138,7 @@ INSERT INTO Alunos_Cursos VALUES
 (28, 3,'MANHÃ'),
 (28, 4,'TARDE'),
 (29, 5,'NOITE'),
-(29,3 ,'TARDE'),
+(29,3,'TARDE'),
 (30, 1,'NOITE');
 
 INSERT INTO Cursos_Modulos VALUES
