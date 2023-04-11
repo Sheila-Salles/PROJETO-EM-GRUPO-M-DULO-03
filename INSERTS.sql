@@ -80,7 +80,7 @@ INSERT INTO Funcionarios  VALUES
 INSERT INTO Cursos  VALUES
 (1, 'Analise de Dados', 450 , 11000.00),
 (2, 'Web Dev Full Stack ', 550 , 12000.00),
-(3, 'Ux Designer' , 100 , 9000.00,
+(3, 'Ux Designer' , 100 , 9000.00),
 (4, 'Ciencia de Dados' , 482 , 12000.00),
 (5, 'Engenharia de Dados' , 318 , 11000.00);
 
